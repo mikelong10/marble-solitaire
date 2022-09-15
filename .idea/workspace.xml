@@ -5,15 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cedee1e0-4ec0-4e0a-b959-09fc9fe3aa52" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/src/cs3500/marblesolitaire/controller/MarbleSolitaireController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cs3500/marblesolitaire/controller/MarbleSolitaireControllerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cs3500/marblesolitaire/view/MarbleSolitaireTextView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/EnglishSolitaireModelTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/assignment1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assignment1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cs3500/marblesolitaire/MarbleSolitaire.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw04/EnglishSolitaireFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw04/EuropeanSolitaireFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw04/EuropeanSolitaireModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw04/MarbleSolitaireAbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw04/MarbleSolitaireAbstractModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw04/TriangleSolitaireFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw04/TriangleSolitaireModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cs3500/marblesolitaire/view/MarbleSolitaireAbstractTextView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cs3500/marblesolitaire/view/TriangleSolitaireTextView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/BadAppendable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/BadReadable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ConfirmInputsModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/EnglishSolitaireTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/EuropeanSolitaireTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/MarbleSolitaireAbstractTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/TriangleSolitaireTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cs3500/marblesolitaire/controller/MarbleSolitaireController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cs3500/marblesolitaire/controller/MarbleSolitaireController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cs3500/marblesolitaire/controller/MarbleSolitaireControllerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cs3500/marblesolitaire/controller/MarbleSolitaireControllerImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw02/EnglishSolitaireModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw02/EnglishSolitaireModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw02/MarbleSolitaireModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw02/MarbleSolitaireModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cs3500/marblesolitaire/view/MarbleSolitaireTextView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cs3500/marblesolitaire/view/MarbleSolitaireTextView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cs3500/marblesolitaire/view/MarbleSolitaireView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cs3500/marblesolitaire/view/MarbleSolitaireView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/EnglishSolitaireModelTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Hw02TypeChecks.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +61,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="28vyIAawESXzDfIxFyDC3y8AK2C" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -60,7 +79,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/michael_long/coding/ood/assignment1&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/michael_long/coding/ood/marble-solitaire&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -71,7 +90,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -79,6 +98,8 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/cs3500/marblesolitaire/view" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/test" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -88,48 +109,147 @@
       <recent name="cs3500.marblesolitaire.model.hw02" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Hw03TypeChecks">
-    <configuration name="Hw03TypeChecks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Hw03TypeChecks" />
+  <component name="RunManager" selected="Application.GUI English Default">
+    <configuration name="English Size 5" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="cs3500.marblesolitaire.MarbleSolitaire" />
       <module name="assignment1" />
+      <option name="PROGRAM_PARAMETERS" value="english -size 5" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnglishSolitaireModelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="English Size 7 Hole (8,2)" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="cs3500.marblesolitaire.MarbleSolitaire" />
+      <module name="assignment1" />
+      <option name="PROGRAM_PARAMETERS" value="english -size 7 -hole 8 2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="European Hole (2,2)" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="cs3500.marblesolitaire.MarbleSolitaire" />
+      <module name="assignment1" />
+      <option name="PROGRAM_PARAMETERS" value="european -hole 2 2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="European Size 9 Hole (9,5)" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="cs3500.marblesolitaire.MarbleSolitaire" />
+      <module name="assignment1" />
+      <option name="PROGRAM_PARAMETERS" value="european -size 9 -hole 9 5" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GUI English Default" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="cs3500.marblesolitaire.GUIMarbleSolitaire" />
+      <module name="assignment1" />
+      <option name="PROGRAM_PARAMETERS" value="english" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GUI European Default" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="cs3500.marblesolitaire.GUIMarbleSolitaire" />
+      <module name="assignment1" />
+      <option name="PROGRAM_PARAMETERS" value="european" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GUIMarbleSolitaire" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cs3500.marblesolitaire.GUIMarbleSolitaire" />
+      <module name="assignment1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cs3500.marblesolitaire.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Text English Default" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="cs3500.marblesolitaire.MarbleSolitaire" />
+      <module name="assignment1" />
+      <option name="PROGRAM_PARAMETERS" value="english" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Text European Default" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="cs3500.marblesolitaire.MarbleSolitaire" />
+      <module name="assignment1" />
+      <option name="PROGRAM_PARAMETERS" value="european" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Text Triangular Default" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="cs3500.marblesolitaire.MarbleSolitaire" />
+      <module name="assignment1" />
+      <option name="PROGRAM_PARAMETERS" value="triangular" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Triangular Size 4" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="cs3500.marblesolitaire.MarbleSolitaire" />
+      <module name="assignment1" />
+      <option name="PROGRAM_PARAMETERS" value="triangular -size 4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Triangular Size 8 Hole (5,3)" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="cs3500.marblesolitaire.MarbleSolitaire" />
+      <module name="assignment1" />
+      <option name="PROGRAM_PARAMETERS" value="triangular -hole 5 3 -size 8" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EnglishSolitaireTest,testControllerInputs and 2 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="assignment1" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="EnglishSolitaireModelTest" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="EnglishSolitaireTest,testControllerInputs" />
+        <pattern testClass="EuropeanSolitaireTest,testControllerInputs" />
+        <pattern testClass="TriangleSolitaireTest,testControllerInputs" />
+      </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GUITest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="assignment1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GUITest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnglishSolitaireModelTest.constructors" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GUITest.testController" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="assignment1" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="EnglishSolitaireModelTest" />
-      <option name="METHOD_NAME" value="constructors" />
+      <option name="MAIN_CLASS_NAME" value="GUITest" />
+      <option name="METHOD_NAME" value="testController" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnglishSolitaireModelTest.move" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MarbleSolitaireTest.testToStringView" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="assignment1" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="EnglishSolitaireModelTest" />
-      <option name="METHOD_NAME" value="move" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EnglishSolitaireModelTest.playGame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="assignment1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="EnglishSolitaireModelTest" />
-      <option name="METHOD_NAME" value="playGame" />
+      <option name="MAIN_CLASS_NAME" value="MarbleSolitaireTest" />
+      <option name="METHOD_NAME" value="testToStringView" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -148,13 +268,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Text English Default" />
+      <item itemvalue="Application.GUI English Default" />
+      <item itemvalue="Application.Text European Default" />
+      <item itemvalue="Application.GUI European Default" />
+      <item itemvalue="Application.Text Triangular Default" />
+      <item itemvalue="Application.English Size 5" />
+      <item itemvalue="Application.European Hole (2,2)" />
+      <item itemvalue="Application.Triangular Size 4" />
+      <item itemvalue="Application.English Size 7 Hole (8,2)" />
+      <item itemvalue="Application.European Size 9 Hole (9,5)" />
+      <item itemvalue="Application.Triangular Size 8 Hole (5,3)" />
+      <item itemvalue="Application.GUIMarbleSolitaire" />
+      <item itemvalue="JUnit.GUITest" />
+      <item itemvalue="JUnit.GUITest.testController" />
+      <item itemvalue="JUnit.EnglishSolitaireTest,testControllerInputs and 2 more" />
+      <item itemvalue="JUnit.MarbleSolitaireTest.testToStringView" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Hw03TypeChecks" />
-        <item itemvalue="JUnit.EnglishSolitaireModelTest" />
-        <item itemvalue="JUnit.EnglishSolitaireModelTest.playGame" />
-        <item itemvalue="JUnit.EnglishSolitaireModelTest.move" />
-        <item itemvalue="JUnit.EnglishSolitaireModelTest.constructors" />
+        <item itemvalue="Application.GUIMarbleSolitaire" />
+        <item itemvalue="JUnit.GUITest" />
+        <item itemvalue="JUnit.GUITest.testController" />
+        <item itemvalue="JUnit.MarbleSolitaireTest.testToStringView" />
+        <item itemvalue="JUnit.EnglishSolitaireTest,testControllerInputs and 2 more" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +346,51 @@
       <workItem from="1653337959720" duration="108000" />
       <workItem from="1653340538431" duration="693000" />
       <workItem from="1653341329742" duration="10947000" />
-      <workItem from="1653407690603" duration="3511000" />
+      <workItem from="1653407690603" duration="3798000" />
+      <workItem from="1653412685825" duration="11000" />
+      <workItem from="1653412893235" duration="448000" />
+      <workItem from="1653413367160" duration="84000" />
+      <workItem from="1653413489336" duration="354000" />
+      <workItem from="1653413865817" duration="7650000" />
+      <workItem from="1653427693680" duration="34470000" />
+      <workItem from="1653585044312" duration="3384000" />
+      <workItem from="1653595113612" duration="153000" />
+      <workItem from="1653595290332" duration="62000" />
+      <workItem from="1653595367474" duration="10144000" />
+      <workItem from="1653921711881" duration="12057000" />
+      <workItem from="1654045768578" duration="58210000" />
+      <workItem from="1654270193179" duration="1326000" />
+      <workItem from="1654283251870" duration="177000" />
+      <workItem from="1654283441068" duration="2075000" />
+      <workItem from="1654285677816" duration="27548000" />
+      <workItem from="1654370413452" duration="21987000" />
+      <workItem from="1654544507322" duration="17000" />
+      <workItem from="1654546407294" duration="123000" />
+      <workItem from="1654546540718" duration="1492000" />
+      <workItem from="1654548223923" duration="48000" />
+      <workItem from="1654627162528" duration="129000" />
+      <workItem from="1654627696557" duration="105000" />
+      <workItem from="1654627956169" duration="192000" />
+      <workItem from="1654628335867" duration="6964000" />
+      <workItem from="1654815090784" duration="3627000" />
+      <workItem from="1655059333144" duration="96000" />
+      <workItem from="1655065554475" duration="734000" />
+      <workItem from="1655237292134" duration="1333000" />
+      <workItem from="1655321325569" duration="25925000" />
+      <workItem from="1655825609500" duration="2609000" />
+      <workItem from="1655928286019" duration="591000" />
+      <workItem from="1656262990542" duration="625000" />
+      <workItem from="1656272491889" duration="598000" />
+      <workItem from="1657143896023" duration="371000" />
+      <workItem from="1658247080550" duration="152000" />
+      <workItem from="1659621470582" duration="58000" />
+      <workItem from="1659718449256" duration="55000" />
+      <workItem from="1659718590963" duration="630000" />
+      <workItem from="1662692260096" duration="626000" />
+      <workItem from="1662857647494" duration="598000" />
+      <workItem from="1663087331593" duration="290000" />
+      <workItem from="1663087697613" duration="686000" />
+      <workItem from="1663267883768" duration="590000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1652451313547</created>
@@ -217,7 +399,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652451313548</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="initial commit">
+      <created>1653411619383</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1653411619383</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -2,7 +2,7 @@ package cs3500.marblesolitaire.model.hw02;
 
 /**
  * This interface represents the operations offered by the marble solitaire
- * model. One object of the model represents one game of marble solitaire
+ * model. One object of the model represents one game of marble solitaire.
  */
 public interface MarbleSolitaireModel extends MarbleSolitaireModelState {
   /**
