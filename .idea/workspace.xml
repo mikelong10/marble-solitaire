@@ -5,32 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cedee1e0-4ec0-4e0a-b959-09fc9fe3aa52" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/src/cs3500/marblesolitaire/MarbleSolitaire.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw04/EnglishSolitaireFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw04/EuropeanSolitaireFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw04/EuropeanSolitaireModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw04/MarbleSolitaireAbstractFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw04/MarbleSolitaireAbstractModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw04/TriangleSolitaireFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw04/TriangleSolitaireModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cs3500/marblesolitaire/view/MarbleSolitaireAbstractTextView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cs3500/marblesolitaire/view/TriangleSolitaireTextView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/BadAppendable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/BadReadable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ConfirmInputsModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/EnglishSolitaireTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/EuropeanSolitaireTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/MarbleSolitaireAbstractTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/TriangleSolitaireTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cs3500/marblesolitaire/controller/MarbleSolitaireController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cs3500/marblesolitaire/controller/MarbleSolitaireController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cs3500/marblesolitaire/controller/MarbleSolitaireControllerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cs3500/marblesolitaire/controller/MarbleSolitaireControllerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw02/EnglishSolitaireModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw02/EnglishSolitaireModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw02/MarbleSolitaireModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cs3500/marblesolitaire/model/hw02/MarbleSolitaireModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cs3500/marblesolitaire/view/MarbleSolitaireTextView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cs3500/marblesolitaire/view/MarbleSolitaireTextView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cs3500/marblesolitaire/view/MarbleSolitaireView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cs3500/marblesolitaire/view/MarbleSolitaireView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/EnglishSolitaireModelTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Hw02TypeChecks.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -390,7 +365,7 @@
       <workItem from="1662857647494" duration="598000" />
       <workItem from="1663087331593" duration="290000" />
       <workItem from="1663087697613" duration="686000" />
-      <workItem from="1663267883768" duration="590000" />
+      <workItem from="1663267883768" duration="1193000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1652451313547</created>
